@@ -1,0 +1,123 @@
+/* Estilos para la tabla principal */
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to bottom, #f0f0f0, #ccc);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff;
+}
+
+th:first-child, td:first-child {
+  border-left: none;
+}
+
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+/* Estilos para los encabezados de la tabla */
+
+th {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilos para los datos de la tabla */
+
+td {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Estilos para los bordes de la tabla */
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para el pie de la tabla */
+
+tfoot {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.formulario {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario input[type="text"] {
+  width: 150px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  width: 100px;
+  height: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #3e8e41;
+}
+
+#actualizar {
+  width: 100px;
+  height: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#actualizar:hover {
+  background-color: #3e8e41;
+}
